@@ -6,17 +6,17 @@ Pod::Spec.new do |s|
 
 
   s.description      = <<-DESC
-                          使用该库试验插件化封装
+                          使用该库试验插件化封装BusinessZ
                        DESC
 
   s.homepage         = 'https://github.com/YakirLove/BusinessZ'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wuyanji' => '282335315@qq.com' }
-  s.source           = { :git => 'https://github.com/YakirLove/BusinessZ.git', :tag => '0.0.1' }
+  s.source           = { :git => 'https://github.com/YakirLove/BusinessZ.git', :tag => '0.1.0' }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'BusinessZ/Classes/*'
   
  end
