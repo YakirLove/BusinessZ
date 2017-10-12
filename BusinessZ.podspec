@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BusinessZ'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '业务插件 BusinessZ.'
 
 
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wuyanji' => '282335315@qq.com' }
-  s.source           = { :git => 'https://github.com/YakirLove/BusinessZ.git', :tag => '0.1.1' }
+  s.source           = { :git => 'https://github.com/YakirLove/BusinessZ.git', :tag => '0.1.2' }
 
   s.ios.deployment_target = '8.0'
 
