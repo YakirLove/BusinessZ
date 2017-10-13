@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BusinessZ'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '业务插件 BusinessZ.'
 
 
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BusinessZ/Classes/*'
+  s.source_files = 'BusinessZ/Classes/**/*.{h,m}'
   
  end

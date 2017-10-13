@@ -1,13 +1,15 @@
 //
 //  ZViewController.h
-//  BusinessZ
+//  YKOCProject
 //
-//  Created by wuyanji on 10/11/2017.
-//  Copyright (c) 2017 wuyanji. All rights reserved.
+//  Created by wyj on 2017/10/11.
+//  Copyright © 2017年 wyj. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface ZViewController : UIViewController
+
+-(id)initWithText:(NSString *)string;
 
 @end
